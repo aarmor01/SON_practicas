@@ -1,0 +1,27 @@
+Propuesta - Sonorización de “Zona Costera” de Pokepark 2
+
+Propuesta
+La idea es sonorizar el entorno “Zona Costera” de Pokepark 2, dotándolo de una serie de elementos interactivos.
+Con carácter general, se busca crear un entorno inmersivo y relajante, en el que sea agradable estar y explorar.
+
+Posibles características
+    • Sonorización:
+		• Sonido ambiente del mar y viento
+		• Sonido de pasos variante
+			◦ Pasos en madera
+			◦ Pasos en arena
+			◦ Pasos en el mar
+			◦ Pasos en el césped
+			◦ Pasos en la piedra
+		• Sonidos al pasar por un arbusto o flores
+		• Sonidos que hagan las criaturas que estén por el mapa
+		• Sonidos relacionados a los elementos interactivos 
+		• Eco/Reverb en las cuevas/casas
+    • Elementos Interactivos:
+		• Pokémon merodeando (tienen sus propios sonidos más los pasos), con posibilidad de eventos (agrupaciones espontaneas)
+		• Objetos que se pueden coger (caja, flotador)
+		• Altar (sale una esfera blanca de energía al acercarte, al interactuar hace otro sonido)
+		• Personaje controlable
+			◦ Puede moverse en 8 direcciones
+			◦ Puede saltar
+			◦ Opcionalmente puede atacar, el sonido depende de lo que golpee 
