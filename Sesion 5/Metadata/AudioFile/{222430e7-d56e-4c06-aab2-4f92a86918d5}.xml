@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{222430e7-d56e-4c06-aab2-4f92a86918d5}">
+		<property name="assetPath">
+			<value>musica/3DDChimes.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>52.363628117913834</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{20efd711-b359-471f-8e40-99fff1766d5b}</destination>
+		</relationship>
+	</object>
+</objects>

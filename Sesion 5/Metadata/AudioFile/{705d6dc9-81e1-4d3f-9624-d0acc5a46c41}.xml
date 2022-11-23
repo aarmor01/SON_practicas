@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{705d6dc9-81e1-4d3f-9624-d0acc5a46c41}">
+		<property name="assetPath">
+			<value>maquina.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.579591836734695</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{20efd711-b359-471f-8e40-99fff1766d5b}</destination>
+		</relationship>
+	</object>
+</objects>
