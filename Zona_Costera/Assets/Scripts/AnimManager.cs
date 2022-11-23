@@ -5,12 +5,12 @@ using UnityEngine;
 public class AnimManager : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    private Rigidbody rb;
+    private CharacterController rb;
     int speedId = Animator.StringToHash("Speed");
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<CharacterController>();
     }
 
     void Update()
