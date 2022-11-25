@@ -6,10 +6,12 @@ using UnityEngine.InputSystem;
 
 namespace StarterAssets
 {
-	public class StarterAssetsInputs : MonoBehaviour
+	public class StarterAssetsInputHolder : MonoBehaviour
 	{
 		[Header("Character Input Values")]
-		public Vector2 move;
+        [SerializeField] PlayerControllerScriptable_SO playerControllerScriptable_SO;
+
+        public Vector2 move;
 		public Vector2 look;
 		public bool jump;
 		public bool sprint;
@@ -21,31 +23,21 @@ namespace StarterAssets
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
 
-#if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
-		public void OnMove(InputValue value)
+		private void OnEnable()
 		{
-			MoveInput(value.Get<Vector2>());
+			playerControllerScriptable_SO.moveEvent += MoveInput;
+			playerControllerScriptable_SO.lookEvent += LookInput;
+			playerControllerScriptable_SO.jumpEvent += JumpInput;
+			playerControllerScriptable_SO.sprintEvent += SprintInput;
 		}
 
-		public void OnLook(InputValue value)
+		private void OnDestroy()
 		{
-			if(cursorInputForLook)
-			{
-				LookInput(value.Get<Vector2>());
-			}
-		}
-
-		public void OnJump(InputValue value)
-		{
-			JumpInput(value.isPressed);
-		}
-
-		public void OnSprint(InputValue value)
-		{
-			SprintInput(value.isPressed);
-		}
-#endif
-
+            playerControllerScriptable_SO.moveEvent -= MoveInput;
+            playerControllerScriptable_SO.lookEvent -= LookInput;
+            playerControllerScriptable_SO.jumpEvent -= JumpInput;
+            playerControllerScriptable_SO.sprintEvent -= SprintInput;
+        }
 
 		public void MoveInput(Vector2 newMoveDirection)
 		{
