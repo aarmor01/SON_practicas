@@ -55,7 +55,7 @@ namespace StarterAssets
         private float _speed;
         private float _rotationVelocity;
         private float _verticalVelocity;
-        private float _terminalVelocity = 53.0f;
+        private float _terminalVelocity = 90.0f;
 
         // timeout deltatime
         private float _jumpTimeoutDelta;
@@ -185,7 +185,7 @@ namespace StarterAssets
                 // stop our velocity dropping infinitely when grounded
                 if (_verticalVelocity < 0.0f)
                 {
-                    _verticalVelocity = -2f;
+                    _verticalVelocity = -4f;
                 }
 
                 // Jump
