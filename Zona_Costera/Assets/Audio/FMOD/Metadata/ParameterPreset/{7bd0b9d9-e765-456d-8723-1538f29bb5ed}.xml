@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7bd0b9d9-e765-456d-8723-1538f29bb5ed}">
+		<property name="name">
+			<value>Waves</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0bb7f302-875e-4e06-9ebb-b53e856af221}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b9876d1c-970c-4402-9e1d-7b2449baac8a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b9876d1c-970c-4402-9e1d-7b2449baac8a}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Waves</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

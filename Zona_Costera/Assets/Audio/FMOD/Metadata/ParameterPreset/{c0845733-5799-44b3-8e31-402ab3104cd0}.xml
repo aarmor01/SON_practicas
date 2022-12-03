@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c0845733-5799-44b3-8e31-402ab3104cd0}">
+		<property name="name">
+			<value>WaveProximity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0bb7f302-875e-4e06-9ebb-b53e856af221}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{19931075-3d33-49dd-9818-0f7d7b924ecf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{19931075-3d33-49dd-9818-0f7d7b924ecf}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
