@@ -9,6 +9,7 @@ public class StepSoundManager : MonoBehaviour
 {
     [SerializeField] EventReference footstepsEvent;
     private EventInstance footstepsInstance;
+    [SerializeField] StarterAssets.FirstPersonController controller;
 
     private void Awake()
     {
@@ -18,7 +19,7 @@ public class StepSoundManager : MonoBehaviour
 
     public void PlayFootstepsEvent()
     {
-        if (footstepsInstance.isValid())
+        if (footstepsInstance.isValid() && controller.Grounded)
         {
             RuntimeManager.AttachInstanceToGameObject(footstepsInstance, transform);
             footstepsInstance.start();

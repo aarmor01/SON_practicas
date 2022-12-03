@@ -815,6 +815,7 @@ MonoBehaviour:
       Data3: -2132139352
       Data4: 135333186
     Path: event:/Footsteps
+  controller: {fileID: 1400173765}
 --- !u!1001 &773358827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2302,6 +2303,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateTime: 2
+--- !u!114 &1400173765 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3960340100321233320, guid: 7a7e6a5c4db567f4aa256f21df855ffa,
+    type: 3}
+  m_PrefabInstance: {fileID: 1220077756}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400173759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55919ac34a26952479f3fc91f777b2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1400173766
 MonoBehaviour:
   m_ObjectHideFlags: 0
