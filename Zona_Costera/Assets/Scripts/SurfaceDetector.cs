@@ -18,7 +18,7 @@ public class SurfaceDetector : MonoBehaviour
         if (r)
         {
             var collision = ray.collider.gameObject;
-            if (collision != detected)
+            if (collision && collision != detected)
             {
                 detected = collision;
                 surface = detected.GetComponent<SurfaceType>();
