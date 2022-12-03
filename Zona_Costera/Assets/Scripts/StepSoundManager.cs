@@ -6,18 +6,21 @@ using FMOD.Studio;
 
 public class StepSoundManager : MonoBehaviour
 {
-    [SerializeField] EventReference footstepEventReference;
-    private EventInstance footsteps;
+    [SerializeField] EventReference footstepsEvent;
+    private EventInstance footstepsInstance;
 
     private void Awake()
     {
-        if (footstepEventReference.IsNull)
-            footsteps = RuntimeManager.CreateInstance(footstepEventReference);
+        if (footstepsEvent.IsNull)
+            footstepsInstance = RuntimeManager.CreateInstance(footstepsEvent);
     }
 
-    public void PlayFootsteps()
+    public void PlayFootstepsEvent()
     {
-        if (footsteps.isValid())
-            footsteps.start();
+        if (footstepsInstance.isValid())
+        {
+            RuntimeManager.AttachInstanceToGameObject(footstepsInstance, transform);
+            footstepsInstance.start();
+        }
     }
 }

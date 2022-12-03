@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Zona_Costera/Assets/Audio/FMOD.meta
 guid: 0a228b15d3bf1374694e2074692d512d
+=======
+guid: c7cdd0b86a5694147897711724d96370
+>>>>>>> f44a2a3 (Añadido evento de pasos integrado en Unity (pendiente de revisar)):Zona_Costera/Assets/Audio/FMOD Build/Desktop.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
