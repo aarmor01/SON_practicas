@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{e54a210f-de47-4bb0-8257-5b42b6ca5899}">
+		<property name="assetPath">
+			<value>Nature Sounds Pack/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7e268ff5-5d5e-4fc3-8096-c78967e04bad}</destination>
+		</relationship>
+	</object>
+</objects>

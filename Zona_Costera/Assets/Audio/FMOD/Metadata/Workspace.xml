@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{618b94a3-6337-4e44-a219-97f513bc9184}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../../../../Documents/Universidad/Sonido/SON_practicas/Zona_Costera/Assets/Audio/FMOD Build</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{c87f3978-4441-47ac-992f-3cd86e5f7161}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{7b1b322f-57f6-42a0-b78c-9dea36c0914f}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{ff26689b-5e1e-4412-9693-201bf442a668}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{0bb7f302-875e-4e06-9ebb-b53e856af221}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{e1675d31-479e-4845-aad0-0d8d89dc4521}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{3f6754ce-f2e9-4376-96ee-d5d0c5fbebee}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{7e268ff5-5d5e-4fc3-8096-c78967e04bad}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{e5bb33b6-f7eb-4156-8286-229f99178c9d}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{24362e5d-20c0-4b7c-a593-a25ebf190386}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{9f955366-ea2b-4415-b9ff-a5340b7cc5a3}</destination>
+		</relationship>
+	</object>
+</objects>
