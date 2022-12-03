@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
+using System;
 
 public class StepSoundManager : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class StepSoundManager : MonoBehaviour
 
     private void Awake()
     {
-        if (footstepsEvent.IsNull)
+        if (!footstepsEvent.IsNull)
             footstepsInstance = RuntimeManager.CreateInstance(footstepsEvent);
     }
 
