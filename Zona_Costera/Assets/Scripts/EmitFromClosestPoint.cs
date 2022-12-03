@@ -14,6 +14,7 @@ public class EmitFromClosestPoint : MonoBehaviour
     void fillPointsFromParent()
     {
         points = parent.GetComponentsInChildren<Transform>().SkipWhile(x => x == parent).ToArray();
+        points = points.Concat(new Transform[] { points[0] }).ToArray();
     }
 
     Vector3 getClosestPointOnLine(Vector3 a, Vector3 b, Vector3 p)
