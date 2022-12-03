@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.PlayerLoop;
 
 public class EmitFromClosestPoint : MonoBehaviour
 {
@@ -9,6 +10,26 @@ public class EmitFromClosestPoint : MonoBehaviour
     [SerializeField] Transform emisor;
     [SerializeField] Transform parent;
     [SerializeField] Transform[] points;
+
+    [SerializeField]private float updateTime = 0.5f;
+    Vector3 closestPoint;
+
+    private void Start() => StartCoroutine(UpdateEmisor());
+
+    IEnumerator UpdateEmisor()
+    {
+        WaitForSeconds wait = new WaitForSeconds(updateTime);
+        while (true)
+        {
+            closestPoint =  getClosestPoint();
+            yield return wait;
+        }
+    }
+
+    private void Update()
+    {
+        emisor.position = Vector3.Lerp(emisor.position, closestPoint, Time.deltaTime);
+    }
 
     [ContextMenu("Fill")]
     void fillPointsFromParent()
