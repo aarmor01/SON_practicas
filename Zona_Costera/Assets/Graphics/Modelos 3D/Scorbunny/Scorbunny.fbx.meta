@@ -3,7 +3,42 @@ guid: ca03a45d7cfee2949beb331435023074
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body00
+    second: {fileID: 2100000, guid: 84260a16638ced64ebe1fd070ce8e670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body01
+    second: {fileID: 2100000, guid: c265dc310837f6c409cabd9daec4496b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body02
+    second: {fileID: 2100000, guid: 359fb010010b45a418d9ad1b18b90004, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyVco00
+    second: {fileID: 2100000, guid: d47657e7de938fb4aa09d35c3023cd75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyVco01
+    second: {fileID: 2100000, guid: 8bbf204f8373963459829e68bba901f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEye
+    second: {fileID: 2100000, guid: 689592f4c799b0b43ae8c4e835818e93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: REye
+    second: {fileID: 2100000, guid: eeda2b55a32c91248bafe20ab0d3b879, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
