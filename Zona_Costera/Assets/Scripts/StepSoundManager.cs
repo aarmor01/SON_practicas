@@ -10,6 +10,9 @@ public class StepSoundManager : MonoBehaviour
     [SerializeField] EventReference footstepsEvent;
     private EventInstance footstepsInstance;
     [SerializeField] StarterAssets.FirstPersonController controller;
+    [SerializeField]SurfaceDetector detector;
+    const string parameter = "Footsteps";
+    const string defaultLabel = "Dirt";
 
     private void Awake()
     {
@@ -22,6 +25,7 @@ public class StepSoundManager : MonoBehaviour
         if (footstepsInstance.isValid() && controller.Grounded)
         {
             RuntimeManager.AttachInstanceToGameObject(footstepsInstance, transform);
+            footstepsInstance.setParameterByNameWithLabel(parameter, detector.Surface?.SurfaceName ?? defaultLabel);
             footstepsInstance.start();
         }
     }
