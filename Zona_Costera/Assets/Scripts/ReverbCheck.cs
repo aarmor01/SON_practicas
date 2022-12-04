@@ -8,35 +8,35 @@ public class ReverbCheck : MonoBehaviour
 {
     const string parameter = "Enclosure";
 
-    [SerializeField] LayerMask detectorLayers;
-    [SerializeField] Vector3 offset;
-
-    Vector3[] directions = { Vector3.up, Vector3.left, Vector3.right, Vector3.forward, Vector3.back };
+    [SerializeField] bool invertDirection;
+    float enclosure = 0;
+    bool isInside = false;
 
     // Update is called once per frame
     void Update()
     {
-        float enclosure = 0f;
-
-        RaycastHit ray;
-        for (int i = 0; i < directions.Length; i++)
-        {
-            bool coll = Physics.Raycast(transform.position + offset, transform.InverseTransformDirection(directions[i]), out ray, 40, detectorLayers);
-            if (coll)
-            {
-                enclosure += 1f / directions.Length;
-                Debug.Log("Collision in " + directions[i] + " direction");
-            }
-        }
-
-        Debug.Log("Enclosure: " + enclosure);
+        enclosure = Mathf.Lerp(enclosure, isInside ? 1 : 0, Time.deltaTime);
         RuntimeManager.StudioSystem.setParameterByName(parameter, enclosure);
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-        for (int i = 0; i < directions.Length; i++)
-            Gizmos.DrawRay(transform.position + offset, transform.InverseTransformDirection(directions[i]));
+        if (invertDirection)
+            Gizmos.DrawRay(transform.position, (transform.forward) * 5);
+        else
+            Gizmos.DrawRay(transform.position, (transform.forward * -1) * 5);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Vector3 outDir = invertDirection ? transform.forward : transform.forward * -1;
+        Transform target = other.transform;
+        Vector3 dir = target.position - transform.position;
+
+        // Check if the target is aligned with outDir to know if they entered or exited
+        isInside = Mathf.Sign(Vector3.Dot(dir, outDir)) < 0;
+        GetComponentInParent<ReverbCheckManager>().EnableMe(this);
+        //Debug.Log(isInside ? "Inside" : "Out");
     }
 }
