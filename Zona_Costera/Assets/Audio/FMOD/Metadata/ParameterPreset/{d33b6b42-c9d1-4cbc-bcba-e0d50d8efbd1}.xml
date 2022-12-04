@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d33b6b42-c9d1-4cbc-bcba-e0d50d8efbd1}">
+		<property name="name">
+			<value>Cry</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0bb7f302-875e-4e06-9ebb-b53e856af221}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cbe2e98f-c377-404c-819b-532e2d06ac26}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cbe2e98f-c377-404c-819b-532e2d06ac26}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>7</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Eevee</value>
+			<value>Axew</value>
+			<value>Buizel</value>
+			<value>Froakie</value>
+			<value>Noibat</value>
+			<value>Phantump</value>
+			<value>Scorbunny</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -22,8 +22,8 @@ public class SurfaceDetector : MonoBehaviour
             {
                 detected = collision;
                 surface = detected.GetComponent<SurfaceType>();
-                if (surface)
-                    Debug.Log("Detected " + detected.name + " with type: " + surface.SurfaceName);
+                //if (surface)
+                //    Debug.Log("Detected " + detected.name + " with type: " + surface.SurfaceName);
             }
         }
     }
