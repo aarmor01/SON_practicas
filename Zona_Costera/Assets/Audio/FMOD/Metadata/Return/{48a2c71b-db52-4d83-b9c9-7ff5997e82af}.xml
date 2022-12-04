@@ -23,11 +23,19 @@
 	<object class="MixerBusPanner" id="{36ecf6a7-b1c3-408e-9b99-5fe37e147126}" />
 	<object class="MultibandEqEffect" id="{0c10a62e-7626-4d19-b3e2-1fc232fb2616}">
 		<property name="frequencyA">
-			<value>1988.98267</value>
+			<value>4023.18384</value>
 		</property>
 		<property name="qualityA">
-			<value>0.686068952</value>
+			<value>0.751586199</value>
 		</property>
+		<relationship name="automators">
+			<destination>{b476b866-7803-4920-8090-77e2ba4e1552}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{92f6f108-bd7c-4715-94a4-f51580feff19}" />
+	<object class="Automator" id="{b476b866-7803-4920-8090-77e2ba4e1552}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>frequencyA</value>
+		</property>
+	</object>
 </objects>

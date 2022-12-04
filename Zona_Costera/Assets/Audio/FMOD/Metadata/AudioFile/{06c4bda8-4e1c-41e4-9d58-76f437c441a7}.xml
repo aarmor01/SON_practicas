@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{13526b27-d927-4bf9-b93e-45c880ec0135}">
+	<object class="AudioFile" id="{06c4bda8-4e1c-41e4-9d58-76f437c441a7}">
 		<property name="assetPath">
-			<value>Wind/short wind sound.wav</value>
+			<value>IntroFinal.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>4.2353061224489794</value>
+			<value>8</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{7e268ff5-5d5e-4fc3-8096-c78967e04bad}</destination>
