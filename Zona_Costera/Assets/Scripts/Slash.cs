@@ -13,6 +13,12 @@ public class Slash : MonoBehaviour
 
     private void Update()
     {
+        if (followObject == null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         followObject.SetActive(true);
         //followObject.GetComponent<MeshRenderer>().enabled = true;
         time += Time.deltaTime;

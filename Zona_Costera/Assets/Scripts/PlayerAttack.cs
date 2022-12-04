@@ -8,6 +8,7 @@ public class PlayerAttack : MonoBehaviour
 
     public void OnAttack()
     {
-        GameObject.Instantiate(slashes[Random.Range(0, slashes.Length)], transform.position, transform.rotation);
+        var go = GameObject.Instantiate(slashes[Random.Range(0, slashes.Length)], transform.position, transform.rotation);
+        go.transform.SetParent(transform);
     }
 }
