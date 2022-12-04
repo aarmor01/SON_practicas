@@ -1,13 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class MoveCharactersAI : MonoBehaviour
 {
     NavMeshAgent agent;
+    [SerializeField] Transform wayPointParents;
     [SerializeField] List<Transform> wayPoints;
     int currentIndex = 0;
+
+    [ContextMenu("Generate")]
+    private void generatePointsFromParent()
+    {
+        if (!wayPointParents)
+            return;
+
+        wayPoints = wayPointParents.GetComponentsInChildren<Transform>().SkipWhile(x => x == wayPointParents).ToList();
+    }
 
     private int RandomIndex => Random.Range(0, wayPoints.Count);
 
