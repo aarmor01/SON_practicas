@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Surface { Grass, Stones, Dirt, Wood, Water }
+public enum Surface { Grass, Stones, Dirt, Wood, Water, Sand }
 
 public class SurfaceType : MonoBehaviour
 {
