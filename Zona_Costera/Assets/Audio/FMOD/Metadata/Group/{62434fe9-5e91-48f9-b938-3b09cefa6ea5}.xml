@@ -23,8 +23,11 @@
 	<object class="MixerBusPanner" id="{c1707212-bdd6-4ced-9a8b-b2627fa5dfe7}" />
 	<object class="MixerBusFader" id="{eae129d2-c6e3-47dd-a178-ad16705aa912}" />
 	<object class="MixerSend" id="{b6b12aca-3d4a-45ce-8f3c-37a5bfe989e9}">
+		<property name="level">
+			<value>0</value>
+		</property>
 		<property name="inputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{52b560b6-598f-40f5-bd13-c962f87694ca}</destination>

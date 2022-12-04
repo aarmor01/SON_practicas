@@ -9,13 +9,14 @@ public class ReverbCheck : MonoBehaviour
     const string parameter = "Enclosure";
 
     [SerializeField] bool invertDirection;
+    [SerializeField] float transitionSpeed = 4;
     float enclosure = 0;
     bool isInside = false;
 
     // Update is called once per frame
     void Update()
     {
-        enclosure = Mathf.Lerp(enclosure, isInside ? 1 : 0, Time.deltaTime);
+        enclosure = Mathf.Lerp(enclosure, isInside ? 1 : 0, Time.deltaTime * transitionSpeed);
         RuntimeManager.StudioSystem.setParameterByName(parameter, enclosure);
     }
 
