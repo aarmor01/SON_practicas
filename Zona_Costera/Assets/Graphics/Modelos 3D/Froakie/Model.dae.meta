@@ -3,7 +3,27 @@ guid: 7c1114a74744ca641a93f1b31a733c9f
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PG_scarf_mat
+    second: {fileID: 2100000, guid: d89b1dac91936214bafe66fd14f59728, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body_mat
+    second: {fileID: 2100000, guid: 36f38de9631b94a418a4c41d24a76b0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_mat
+    second: {fileID: 2100000, guid: 998273cce2353ff49b9140259efd3aed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mouth_mat
+    second: {fileID: 2100000, guid: 6075d5cadb4b4ff4cb02a4974ed153ad, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
