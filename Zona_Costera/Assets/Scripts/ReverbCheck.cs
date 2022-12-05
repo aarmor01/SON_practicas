@@ -10,13 +10,14 @@ public class ReverbCheck : MonoBehaviour
 
     [SerializeField] bool invertDirection;
     [SerializeField] float transitionSpeed = 4;
+    [SerializeField][Range(0,1)] float maxEnclosure = 1;
     float enclosure = 0;
     bool isInside = false;
 
     // Update is called once per frame
     void Update()
     {
-        enclosure = Mathf.Lerp(enclosure, isInside ? 1 : 0, Time.deltaTime * transitionSpeed);
+        enclosure = Mathf.Lerp(enclosure, isInside ? maxEnclosure : 0, Time.deltaTime * transitionSpeed);
         RuntimeManager.StudioSystem.setParameterByName(parameter, enclosure);
     }
 
