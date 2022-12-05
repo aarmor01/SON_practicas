@@ -5,26 +5,29 @@ using FMODUnity;
 using FMOD.Studio;
 using System;
 
+[RequireComponent(typeof(SurfaceDetector))]
 public class StepSoundManager : MonoBehaviour
 {
     [SerializeField] EventReference footstepsEvent;
     private EventInstance footstepsInstance;
 
     [SerializeField] StarterAssets.FirstPersonController controller;
-    [SerializeField] SurfaceDetector detector;
+    SurfaceDetector detector;
 
     const string parameter = "Footsteps";
     const string defaultLabel = "Dirt";
 
     private void Awake()
     {
+        detector = GetComponent<SurfaceDetector>();
+
         if (!footstepsEvent.IsNull)
             footstepsInstance = RuntimeManager.CreateInstance(footstepsEvent);
     }
 
     public void PlayFootstepsEvent()
     {
-        if (footstepsInstance.isValid() && controller.Grounded)
+        if (footstepsInstance.isValid() && controller != null ? controller.Grounded : true)
         {
             RuntimeManager.AttachInstanceToGameObject(footstepsInstance, transform);
             footstepsInstance.setParameterByNameWithLabel(parameter, detector.Surface?.SurfaceName ?? defaultLabel);
