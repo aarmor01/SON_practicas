@@ -1,12 +1,14 @@
 ﻿using FMODUnity;
+using FMOD.Studio;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem.XR;
 
 public class WindManager : MonoBehaviour
 {
-    [SerializeField] GameObject player;
-    private StudioEventEmitter windEvent;
+    [SerializeField] EventReference windEvent;
+    private EventInstance windInstance;
 
     const string parameter = "Height";
     const float maxHeight = 10;
@@ -15,23 +17,25 @@ public class WindManager : MonoBehaviour
 
     private void Awake()
     {
-        windEvent = GetComponent<StudioEventEmitter>();
-        ogHeight = player.transform.position.y;
+        if (!windEvent.IsNull)
+            windInstance = RuntimeManager.CreateInstance(windEvent);
+
+        ogHeight = transform.position.y;
         Debug.Log("Og Height: " + ogHeight);
 
     }
 
     private void Update()
     {
-        float height = player.transform.position.y - ogHeight;
+        float height = transform.position.y - ogHeight;
 
-        Debug.Log("Height: " + height);
         height = Mathf.Max(height, 0);
         height = Mathf.Min(height, maxHeight);
-        Debug.Log("Height: " + height);
 
-        windEvent.EventInstance.setParameterByName(parameter, height);
-        windEvent.EventInstance.start();
-
+        if (windInstance.isValid())
+        {
+            windInstance.setParameterByName(parameter, 5f);
+            windInstance.start();
+        }
     }
 }
