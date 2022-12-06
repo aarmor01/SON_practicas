@@ -9,12 +9,14 @@ public class SurfaceDetector : MonoBehaviour
     GameObject detected;
     [SerializeField] Vector3 offset;
 
+    const float dist = 40f;
+
     public SurfaceType Surface => surface;
 
     void Update()
     {
         RaycastHit ray;
-        var r = Physics.Raycast(transform.position, Vector3.down + offset, out ray, 40, detectorLayers);
+        var r = Physics.Raycast(transform.position, Vector3.down + offset, out ray, dist, detectorLayers);
         if (r)
         {
             var collision = ray.collider.gameObject;
