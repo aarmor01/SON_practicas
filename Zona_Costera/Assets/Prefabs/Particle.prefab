@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7416443126062442311}
   - component: {fileID: 3344363405327311802}
   - component: {fileID: 2430546240829575311}
+  - component: {fileID: 4201031369826531781}
   m_Layer: 0
   m_Name: Particle
   m_TagString: Untagged
@@ -40,7 +41,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7844916332716832557}
   serializedVersion: 6
-  lengthInSec: 0.25
+  lengthInSec: 1.25
   simulationSpeed: 1
   stopAction: 2
   cullingMode: 0
@@ -115,7 +116,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.25
+      scalar: 1.25
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4811,3 +4812,33 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &4201031369826531781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844916332716832557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1494879870
+      Data2: 1226070460
+      Data3: -154721382
+      Data4: -1986158451
+    Path: event:/CrackScatter
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
