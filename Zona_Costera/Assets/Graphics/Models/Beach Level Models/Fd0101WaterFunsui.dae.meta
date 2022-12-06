@@ -3,7 +3,27 @@ guid: 53aa5cb3163e59d43b9defc889159780
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fd0101SeaWave
+    second: {fileID: 2100000, guid: 37d42e9749a0b934eaa9e5293a252b09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fd0101SplashA
+    second: {fileID: 2100000, guid: 61b8558f3abcf284487741cc2983f554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fd0101funsuiA
+    second: {fileID: 2100000, guid: 6d825bf96fa832e448fe6a782364899c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fd0101funsuiC
+    second: {fileID: 2100000, guid: fba6312d594127746ac3b5f4df7e5a13, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
