@@ -284,10 +284,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &33850793
@@ -2728,10 +2728,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &286202947
@@ -2852,10 +2852,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &306648065
@@ -3433,10 +3433,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &378092388
@@ -4067,10 +4067,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &570456880
@@ -4567,10 +4567,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &659591781
@@ -4815,10 +4815,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 1400173765}
 --- !u!114 &712229611
@@ -4837,6 +4837,33 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 513
   offset: {x: 0, y: 0.25, z: 0}
+--- !u!114 &712229612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712229607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319013fc90747c849a7fba551b632d83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpEvent:
+    Guid:
+      Data1: 833120747
+      Data2: 1079283492
+      Data3: -1686574914
+      Data4: -777221524
+    Path: event:/Jump
+  fallEvent:
+    Guid:
+      Data1: -256477116
+      Data2: 1223607408
+      Data3: -380796531
+      Data4: 652993490
+    Path: event:/Fall
+  controller: {fileID: 1400173765}
 --- !u!1 &744407023
 GameObject:
   m_ObjectHideFlags: 0
@@ -5470,10 +5497,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &770427594
@@ -5753,10 +5780,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &779019893
@@ -6180,10 +6207,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &852478231
@@ -6553,10 +6580,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &908596065
@@ -8259,10 +8286,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1164473906
@@ -10700,10 +10727,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1414514756
@@ -13019,10 +13046,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1715126209
@@ -13092,10 +13119,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1728797264
@@ -14168,10 +14195,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1883795482
