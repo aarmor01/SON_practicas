@@ -116,7 +116,7 @@ MonoBehaviour:
       Data2: 1320465524
       Data3: 1306875323
       Data4: 879368585
-    Path: event:/Break
+    Path: event:/SFX/MapElements/Break
   Event: 
   PlayEvent: 2
   StopEvent: 0

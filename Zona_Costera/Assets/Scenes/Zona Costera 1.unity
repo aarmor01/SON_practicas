@@ -2653,7 +2653,7 @@ MonoBehaviour:
       Data2: 1224323940
       Data3: -86302029
       Data4: 1216037355
-    Path: event:/Footsteps
+    Path: event:/SFX/Footsteps
   controller: {fileID: 1400173765}
 --- !u!1 &748664909
 GameObject:

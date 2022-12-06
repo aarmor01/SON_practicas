@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -284,11 +284,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &33850793
 MonoBehaviour:
@@ -1308,7 +1308,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 6
   minTime: 5
   maxTime: 10
@@ -1483,7 +1483,7 @@ MonoBehaviour:
       Data2: 1337300939
       Data3: -1835338355
       Data4: -1663626990
-    Path: event:/Cove Area
+    Path: event:/Ambience/Cove Area
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -2625,7 +2625,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 4
   minTime: 5
   maxTime: 10
@@ -2649,11 +2649,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &286202947
 MonoBehaviour:
@@ -2773,11 +2773,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &306648065
 MonoBehaviour:
@@ -3354,11 +3354,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &378092388
 MonoBehaviour:
@@ -3576,7 +3576,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 1
   minTime: 5
   maxTime: 10
@@ -3988,11 +3988,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &570456880
 MonoBehaviour:
@@ -4372,7 +4372,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 0
   minTime: 5
   maxTime: 10
@@ -4488,11 +4488,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &659591781
 MonoBehaviour:
@@ -4736,11 +4736,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 1400173765}
 --- !u!114 &712229611
 MonoBehaviour:
@@ -4776,14 +4776,14 @@ MonoBehaviour:
       Data2: 1079283492
       Data3: -1686574914
       Data4: -777221524
-    Path: event:/Jump
+    Path: event:/SFX/Player/Jump
   fallEvent:
     Guid:
       Data1: -256477116
       Data2: 1223607408
       Data3: -380796531
       Data4: 652993490
-    Path: event:/Fall
+    Path: event:/SFX/Player/Fall
   controller: {fileID: 1400173765}
 --- !u!1 &744407023
 GameObject:
@@ -5163,7 +5163,7 @@ MonoBehaviour:
       Data2: 1320465524
       Data3: 1306875323
       Data4: 879368585
-    Path: event:/Break
+    Path: event:/SFX/MapElements/Break
   Event: 
   PlayEvent: 12
   StopEvent: 0
@@ -5418,11 +5418,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &770427594
 MonoBehaviour:
@@ -5701,11 +5701,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &779019893
 MonoBehaviour:
@@ -5844,7 +5844,7 @@ MonoBehaviour:
       Data2: 1320465524
       Data3: 1306875323
       Data4: 879368585
-    Path: event:/Break
+    Path: event:/SFX/MapElements/Break
   Event: 
   PlayEvent: 12
   StopEvent: 0
@@ -6128,11 +6128,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &852478231
 MonoBehaviour:
@@ -6350,7 +6350,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 1
   minTime: 5
   maxTime: 10
@@ -6501,11 +6501,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &908596065
 MonoBehaviour:
@@ -7250,7 +7250,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 3
   minTime: 5
   maxTime: 10
@@ -7527,7 +7527,7 @@ MonoBehaviour:
       Data2: 1320465524
       Data3: 1306875323
       Data4: 879368585
-    Path: event:/Break
+    Path: event:/SFX/MapElements/Break
   Event: 
   PlayEvent: 12
   StopEvent: 0
@@ -8207,11 +8207,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1164473906
 MonoBehaviour:
@@ -8525,7 +8525,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 0
   minTime: 5
   maxTime: 10
@@ -9674,7 +9674,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 2
   minTime: 5
   maxTime: 10
@@ -10114,7 +10114,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 1
   minTime: 5
   maxTime: 10
@@ -10337,7 +10337,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 5
   minTime: 5
   maxTime: 10
@@ -10618,11 +10618,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1414514756
 MonoBehaviour:
@@ -12820,7 +12820,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 2
   minTime: 5
   maxTime: 10
@@ -12937,11 +12937,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1715126209
 MonoBehaviour:
@@ -13010,11 +13010,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1728797264
 MonoBehaviour:
@@ -13606,7 +13606,7 @@ MonoBehaviour:
       Data2: 1118914486
       Data3: 1821168273
       Data4: 553863103
-    Path: event:/Wind
+    Path: event:/Ambience/Wind
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -13628,7 +13628,7 @@ Transform:
   m_GameObject: {fileID: 1822680574}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 451.743, y: -235.03, z: 244.74522}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0000006, y: 1, z: 1.0000006}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -13780,7 +13780,7 @@ MonoBehaviour:
       Data2: 1328743551
       Data3: -1844913505
       Data4: -178327146
-    Path: event:/Waves
+    Path: event:/Ambience/Waves
   Event: 
   PlayEvent: 1
   StopEvent: 2
@@ -14164,11 +14164,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: -1417457297
-      Data2: 1149580937
-      Data3: -2132139352
-      Data4: 135333186
-    Path: event:/Footsteps
+      Data1: 891529170
+      Data2: 1224323940
+      Data3: -86302029
+      Data4: 1216037355
+    Path: event:/SFX/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1883795482
 MonoBehaviour:
@@ -14948,7 +14948,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 1
   minTime: 5
   maxTime: 10
@@ -15198,7 +15198,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 2
   minTime: 5
   maxTime: 10
@@ -15272,7 +15272,7 @@ MonoBehaviour:
       Data2: 1320465524
       Data3: 1306875323
       Data4: 879368585
-    Path: event:/Break
+    Path: event:/SFX/MapElements/Break
   Event: 
   PlayEvent: 12
   StopEvent: 0
@@ -16145,7 +16145,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 1
   minTime: 5
   maxTime: 10
@@ -16212,7 +16212,7 @@ MonoBehaviour:
       Data2: 1277532629
       Data3: 968888251
       Data4: 1726503144
-    Path: event:/PokemonCry
+    Path: event:/SFX/NPCs/PokemonCry
   pokemon: 4
   minTime: 5
   maxTime: 10

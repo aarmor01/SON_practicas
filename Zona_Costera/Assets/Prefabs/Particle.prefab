@@ -4831,7 +4831,7 @@ MonoBehaviour:
       Data2: 1226070460
       Data3: -154721382
       Data4: -1986158451
-    Path: event:/CrackScatter
+    Path: event:/SFX/MapElements/CrackScatter
   Event: 
   PlayEvent: 1
   StopEvent: 0

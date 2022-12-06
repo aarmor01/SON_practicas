@@ -161,7 +161,7 @@ MonoBehaviour:
       Data2: 1300199834
       Data3: 261212600
       Data4: -414291036
-    Path: event:/Slash
+    Path: event:/SFX/Player/Slash
   Event: 
   PlayEvent: 7
   StopEvent: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
       Data2: 1300199834
       Data3: 261212600
       Data4: -414291036
-    Path: event:/Slash
+    Path: event:/SFX/Player/Slash
   Event: 
   PlayEvent: 1
   StopEvent: 2

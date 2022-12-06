@@ -22,6 +22,8 @@ public class WindManager : MonoBehaviour
 
     private void Update()
     {
+        transform.position = character.position;
+
         float height = character.position.y - ogHeight;
 
         height = Mathf.Max(height, 0);
