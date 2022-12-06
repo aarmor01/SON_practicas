@@ -34,7 +34,10 @@ public class JumpSoundManager : MonoBehaviour
         if (controller.Grounded && !groundedPrevFrame)
             PlayFall();
         else if (!controller.Grounded && groundedPrevFrame)
+        {
+            PlayFall();
             PlayJump();
+        }
 
         groundedPrevFrame = controller.Grounded;
     }
