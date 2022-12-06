@@ -9121,6 +9121,16 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.44
       objectReference: {fileID: 0}
+    - target: {fileID: 3960340100321233326, guid: 7a7e6a5c4db567f4aa256f21df855ffa,
+        type: 3}
+      propertyPath: sprintCooldown
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3960340100321233326, guid: 7a7e6a5c4db567f4aa256f21df855ffa,
+        type: 3}
+      propertyPath: sprintDuration
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4010570019103070597, guid: 7a7e6a5c4db567f4aa256f21df855ffa,
         type: 3}
       propertyPath: m_Layer
@@ -10569,6 +10579,36 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1400173768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400173759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1190345680
+      Data2: 1163699091
+      Data3: 657556149
+      Data4: -539929030
+    Path: event:/SFX/Player/Tired
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &1400173769
 MonoBehaviour:
   m_ObjectHideFlags: 0
