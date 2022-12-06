@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -284,10 +284,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &33850793
@@ -1833,7 +1833,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &169905043
 Transform:
   m_ObjectHideFlags: 0
@@ -2649,10 +2649,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &286202947
@@ -2773,10 +2773,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &306648065
@@ -3354,10 +3354,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &378092388
@@ -3988,10 +3988,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &570456880
@@ -4488,10 +4488,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &659591781
@@ -4736,10 +4736,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 1400173765}
 --- !u!114 &712229611
@@ -5418,10 +5418,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &770427594
@@ -5701,10 +5701,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &779019893
@@ -6128,10 +6128,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &852478231
@@ -6501,10 +6501,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &908596065
@@ -7056,7 +7056,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &950781947
 Transform:
   m_ObjectHideFlags: 0
@@ -8207,10 +8207,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1164473906
@@ -9519,7 +9519,7 @@ PrefabInstance:
       value: 4.2583647
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 6283075266601497217, guid: 7a7e6a5c4db567f4aa256f21df855ffa, type: 3}
+    - {fileID: 3538156865572054384, guid: 7a7e6a5c4db567f4aa256f21df855ffa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7a7e6a5c4db567f4aa256f21df855ffa, type: 3}
 --- !u!1 &1220486198 stripped
 GameObject:
@@ -10493,25 +10493,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1220077756}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1400173763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400173759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f265e74d887d3574495be933eba0341a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  windEvent:
-    Guid:
-      Data1: -384054611
-      Data2: 1094340235
-      Data3: -84899450
-      Data4: 97249654
-    Path: event:/Wind
 --- !u!114 &1400173765 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3960340100321233320, guid: 7a7e6a5c4db567f4aa256f21df855ffa,
@@ -10637,10 +10618,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1414514756
@@ -12956,10 +12937,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1715126209
@@ -13029,10 +13010,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1728797264
@@ -13588,6 +13569,84 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c33ad981ecda3544ae07e5554098b7e, type: 3}
+--- !u!1 &1822680574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1822680576}
+  - component: {fileID: 1822680575}
+  - component: {fileID: 1822680577}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1822680575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822680574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -128740503
+      Data2: 1118914486
+      Data3: 1821168273
+      Data4: 553863103
+    Path: event:/Wind
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: Height
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1822680576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822680574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 451.743, y: -235.03, z: 244.74522}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1822680577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822680574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f265e74d887d3574495be933eba0341a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windEvent: {fileID: 1822680575}
+  character: {fileID: 1400173761}
 --- !u!1 &1826629113 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6595110843579769497, guid: 48057f38070ba2d4fb0fd00ab504ab82,
@@ -14105,10 +14164,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
+      Data1: -1417457297
+      Data2: 1149580937
+      Data3: -2132139352
+      Data4: 135333186
     Path: event:/Footsteps
   controller: {fileID: 0}
 --- !u!114 &1883795482
