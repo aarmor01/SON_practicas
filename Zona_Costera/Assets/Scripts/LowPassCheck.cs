@@ -30,17 +30,19 @@ public class LowPassCheck : MonoBehaviour
             }
             else
                 RuntimeManager.StudioSystem.setParameterByName(parameter, 0);
-
             float val;
             RuntimeManager.StudioSystem.getParameterByName(parameter, out val);
             Debug.Log("Low pass: " + val);
 
         }
+        else
+            RuntimeManager.StudioSystem.setParameterByName(parameter, 0);
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;
-        Gizmos.DrawRay(transform.position, ((character.transform.position + offset) - transform.position).normalized * dist);
+        Vector3 diff = ((character.transform.position + offset) - transform.position);
+        Gizmos.DrawRay(transform.position, diff.normalized * diff.magnitude);
     }
 }
