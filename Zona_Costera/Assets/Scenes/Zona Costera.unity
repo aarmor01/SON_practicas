@@ -5068,11 +5068,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &33850793
 MonoBehaviour:
@@ -7435,11 +7435,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &286202947
 MonoBehaviour:
@@ -7559,11 +7559,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &306648065
 MonoBehaviour:
@@ -8142,11 +8142,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &378092388
 MonoBehaviour:
@@ -8776,11 +8776,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &570456880
 MonoBehaviour:
@@ -9277,11 +9277,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &659591781
 MonoBehaviour:
@@ -9529,7 +9529,7 @@ MonoBehaviour:
       Data2: 1224323940
       Data3: -86302029
       Data4: 1216037355
-    Path: event:/SFX/Footsteps
+    Path: event:/SFX/Player/Footsteps
   controller: {fileID: 1400173765}
 --- !u!114 &712229611
 MonoBehaviour:
@@ -10207,11 +10207,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &770427594
 MonoBehaviour:
@@ -10494,7 +10494,7 @@ MonoBehaviour:
       Data2: 1224323940
       Data3: -86302029
       Data4: 1216037355
-    Path: event:/SFX/Footsteps
+    Path: event:/SFX/Player/Footsteps
   controller: {fileID: 0}
 --- !u!114 &779019893
 MonoBehaviour:
@@ -10917,11 +10917,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &852478231
 MonoBehaviour:
@@ -11445,11 +11445,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &908596065
 MonoBehaviour:
@@ -13154,11 +13154,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &1164473906
 MonoBehaviour:
@@ -15640,11 +15640,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &1414514756
 MonoBehaviour:
@@ -17959,11 +17959,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &1715126209
 MonoBehaviour:
@@ -18032,11 +18032,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &1728797264
 MonoBehaviour:
@@ -19205,11 +19205,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 891529170
-      Data2: 1224323940
-      Data3: -86302029
-      Data4: 1216037355
-    Path: event:/SFX/Footsteps
+      Data1: 1177069279
+      Data2: 1082263496
+      Data3: 2032394417
+      Data4: 524959970
+    Path: event:/SFX/NPCs/Slide
   controller: {fileID: 0}
 --- !u!114 &1883795482
 MonoBehaviour:
