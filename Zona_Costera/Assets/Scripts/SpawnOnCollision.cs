@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class SpawnOnCollision : MonoBehaviour
 {
-    [SerializeField]GameObject prefab;
+    [SerializeField] GameObject prefab;
+    [SerializeField] bool spawnOnTrigger = false;
 
     private void OnCollisionEnter(Collision collision)
     {
-        Instantiate(prefab, transform.position, Quaternion.identity);
+        if (!spawnOnTrigger)
+            Instantiate(prefab, transform.position, Quaternion.identity);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (spawnOnTrigger)
+            Instantiate(prefab, transform.position, Quaternion.identity);
     }
 }
