@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7d896e31-a7e3-4be9-8942-733926966267}">
+		<property name="assetPath">
+			<value>Sea/mixkit-sea-water-splash-1198.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.7368934240362812</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7e268ff5-5d5e-4fc3-8096-c78967e04bad}</destination>
+		</relationship>
+	</object>
+</objects>
