@@ -10,11 +10,11 @@ public class StepSoundManager : MonoBehaviour
 {
     [SerializeField] EventReference footstepsEvent;
     private EventInstance footstepsInstance;
+    [SerializeField] string parameter = "Footsteps";
 
     [SerializeField] StarterAssets.FirstPersonController controller;
     SurfaceDetector detector;
 
-    const string parameter = "Footsteps";
     const string defaultLabel = "Dirt";
 
     private void Awake()

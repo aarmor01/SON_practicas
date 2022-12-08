@@ -5073,6 +5073,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &33850793
 MonoBehaviour:
@@ -7440,6 +7441,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &286202947
 MonoBehaviour:
@@ -7564,6 +7566,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &306648065
 MonoBehaviour:
@@ -8147,6 +8150,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &378092388
 MonoBehaviour:
@@ -8781,6 +8785,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &570456880
 MonoBehaviour:
@@ -9282,6 +9287,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &659591781
 MonoBehaviour:
@@ -9530,6 +9536,7 @@ MonoBehaviour:
       Data3: -86302029
       Data4: 1216037355
     Path: event:/SFX/Player/Footsteps
+  parameter: Footsteps
   controller: {fileID: 1400173765}
 --- !u!114 &712229611
 MonoBehaviour:
@@ -10212,6 +10219,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &770427594
 MonoBehaviour:
@@ -10495,6 +10503,7 @@ MonoBehaviour:
       Data3: -86302029
       Data4: 1216037355
     Path: event:/SFX/Player/Footsteps
+  parameter: Footsteps
   controller: {fileID: 0}
 --- !u!114 &779019893
 MonoBehaviour:
@@ -10922,6 +10931,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &852478231
 MonoBehaviour:
@@ -11450,6 +11460,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &908596065
 MonoBehaviour:
@@ -13159,6 +13170,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &1164473906
 MonoBehaviour:
@@ -15645,6 +15657,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &1414514756
 MonoBehaviour:
@@ -17964,6 +17977,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &1715126209
 MonoBehaviour:
@@ -18037,6 +18051,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &1728797264
 MonoBehaviour:
@@ -19210,6 +19225,7 @@ MonoBehaviour:
       Data3: 2032394417
       Data4: 524959970
     Path: event:/SFX/NPCs/Slide
+  parameter: Slide
   controller: {fileID: 0}
 --- !u!114 &1883795482
 MonoBehaviour:
