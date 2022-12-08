@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{02884259-f986-409e-b9d9-de4519d0cc5f}">
 		<property name="assetPath">
-			<value>Nature Sounds Pack/Footstep/FootstepGrass08.wav</value>
+			<value>Steps/FootstepGrass08.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

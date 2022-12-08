@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6d593718-ebbb-4e3b-8669-844d609c4965}">
 		<property name="assetPath">
-			<value>Steps 2/stepwater_2.wav</value>
+			<value>Steps/stepwater_2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
